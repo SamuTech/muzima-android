@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+	//Inspections of elements made to ensure options menu clicked
         if (id == R.id.action_settings) {
             return true;
         }else if(id==R.id.item1){
