@@ -164,6 +164,11 @@ public class ProcessQueueDataHandler implements QueueDataHandler {
         }
         return null;
     }
+
+/**
+
+Added The POST method to send edited Obs to the remote server after editing.
+**/
 	public static String POST(String url,obsObject Obs,Date date){
 	InputStream inputStream= null;
 	String ObsResultString="";
