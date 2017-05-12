@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.ScrollView;
 
 /**
- * TODO: Write brief description about the class here.
+ * Implementor of scroll gesture for ScrollViews
  */
 public class ScrollViewWithDetection extends ScrollView {
 
@@ -55,7 +55,7 @@ public class ScrollViewWithDetection extends ScrollView {
      * Event listener.
      */
     public interface OnBottomReachedListener {
-        public void onBottomReached();
+        void onBottomReached();
     }
 
 }
